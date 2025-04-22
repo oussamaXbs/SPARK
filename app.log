@@ -1,0 +1,996 @@
+2025-04-14 16:52:55,497 - CRITICAL - Supabase URL or Key not set in .env.
+2025-04-14 16:53:29,488 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 16:53:29,738 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 16:53:29,761 - INFO - Anomaly ID 206 already processed.
+2025-04-14 16:53:30,013 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 16:53:30,030 - INFO - Anomaly ID 207 already processed.
+2025-04-14 16:53:30,234 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 16:53:30,298 - INFO - Anomaly ID 211 already processed.
+2025-04-14 16:53:30,588 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 16:53:30,604 - INFO - Anomaly ID 208 already processed.
+2025-04-14 16:53:30,910 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 16:53:30,921 - INFO - Anomaly ID 209 already processed.
+2025-04-14 16:53:31,168 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 16:53:31,184 - INFO - Anomaly ID 210 already processed.
+2025-04-14 16:53:31,489 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 16:53:31,500 - INFO - Anomaly ID 212 already processed.
+2025-04-14 16:53:42,276 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 16:53:42,561 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 16:53:57,474 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_type%22%2C%22anomaly_id%22%2C%22recommendation%22%2C%22cause%22%2C%22device_type%22 "HTTP/2 201 Created"
+2025-04-14 16:53:57,708 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22script_content%22%2C%22status%22%2C%22cause_id%22%2C%22recommendation%22%2C%22device_type%22 "HTTP/2 201 Created"
+2025-04-14 16:53:57,750 - INFO - Saved cause and script for anomaly 206, cause 326.
+2025-04-14 16:53:58,039 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 16:54:20,094 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_type%22%2C%22anomaly_id%22%2C%22recommendation%22%2C%22cause%22%2C%22device_type%22 "HTTP/2 201 Created"
+2025-04-14 16:54:20,310 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22script_content%22%2C%22status%22%2C%22cause_id%22%2C%22recommendation%22%2C%22device_type%22 "HTTP/2 201 Created"
+2025-04-14 16:54:20,378 - INFO - Saved cause and script for anomaly 207, cause 328.
+2025-04-14 16:54:20,640 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 16:54:38,377 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_type%22%2C%22anomaly_id%22%2C%22recommendation%22%2C%22cause%22%2C%22device_type%22 "HTTP/2 201 Created"
+2025-04-14 16:54:38,862 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22script_content%22%2C%22status%22%2C%22cause_id%22%2C%22recommendation%22%2C%22device_type%22 "HTTP/2 201 Created"
+2025-04-14 16:54:38,878 - INFO - Saved cause and script for anomaly 211, cause 330.
+2025-04-14 16:54:39,262 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 16:54:55,929 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_type%22%2C%22anomaly_id%22%2C%22recommendation%22%2C%22cause%22%2C%22device_type%22 "HTTP/2 201 Created"
+2025-04-14 16:54:56,180 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22script_content%22%2C%22status%22%2C%22cause_id%22%2C%22recommendation%22%2C%22device_type%22 "HTTP/2 201 Created"
+2025-04-14 16:54:56,226 - INFO - Saved cause and script for anomaly 208, cause 332.
+2025-04-14 16:54:56,459 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 17:15:03,599 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 17:15:03,853 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 17:15:03,893 - INFO - Anomaly ID 206 already processed.
+2025-04-14 17:15:04,099 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 17:15:04,155 - INFO - Anomaly ID 207 already processed.
+2025-04-14 17:15:04,379 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 17:15:04,421 - INFO - Anomaly ID 211 already processed.
+2025-04-14 17:15:04,643 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 17:15:04,687 - INFO - Anomaly ID 208 already processed.
+2025-04-14 17:15:04,901 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 17:15:04,938 - INFO - Anomaly ID 209 already processed.
+2025-04-14 17:15:05,165 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 17:15:05,203 - INFO - Anomaly ID 210 already processed.
+2025-04-14 17:15:05,445 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 17:15:05,461 - INFO - Anomaly ID 212 already processed.
+2025-04-14 17:15:30,343 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 17:15:30,573 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 17:15:48,204 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22cause%22%2C%22device_type%22%2C%22anomaly_type%22%2C%22anomaly_id%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 17:15:48,409 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22status%22%2C%22device_type%22%2C%22cause_id%22%2C%22script_content%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 17:15:48,440 - INFO - Saved cause and script for anomaly 206, cause 342.
+2025-04-14 17:15:48,646 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 17:16:05,973 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22cause%22%2C%22device_type%22%2C%22anomaly_type%22%2C%22anomaly_id%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 17:16:06,184 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22status%22%2C%22device_type%22%2C%22cause_id%22%2C%22script_content%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 17:16:06,242 - INFO - Saved cause and script for anomaly 207, cause 343.
+2025-04-14 17:16:06,451 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 17:16:16,761 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22cause%22%2C%22device_type%22%2C%22anomaly_type%22%2C%22anomaly_id%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 17:16:16,989 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22status%22%2C%22device_type%22%2C%22cause_id%22%2C%22script_content%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 17:16:17,036 - INFO - Saved cause and script for anomaly 211, cause 344.
+2025-04-14 17:16:17,257 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 17:16:29,957 - WARNING - No valid PowerShell command generated. Using fallback.
+2025-04-14 17:16:30,889 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22cause%22%2C%22device_type%22%2C%22anomaly_type%22%2C%22anomaly_id%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 17:16:31,157 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22status%22%2C%22device_type%22%2C%22cause_id%22%2C%22script_content%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 17:16:31,172 - INFO - Saved cause and script for anomaly 208, cause 345.
+2025-04-14 17:16:31,386 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 17:16:45,475 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22cause%22%2C%22device_type%22%2C%22anomaly_type%22%2C%22anomaly_id%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 17:16:45,688 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22status%22%2C%22device_type%22%2C%22cause_id%22%2C%22script_content%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 17:16:45,751 - INFO - Saved cause and script for anomaly 209, cause 346.
+2025-04-14 17:16:46,000 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 17:17:04,035 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22cause%22%2C%22device_type%22%2C%22anomaly_type%22%2C%22anomaly_id%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 17:17:04,298 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22status%22%2C%22device_type%22%2C%22cause_id%22%2C%22script_content%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 17:17:04,324 - INFO - Saved cause and script for anomaly 210, cause 347.
+2025-04-14 17:17:04,642 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 17:17:24,249 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22cause%22%2C%22device_type%22%2C%22anomaly_type%22%2C%22anomaly_id%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 17:17:24,481 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22status%22%2C%22device_type%22%2C%22cause_id%22%2C%22script_content%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 17:17:24,521 - INFO - Saved cause and script for anomaly 212, cause 348.
+2025-04-14 17:17:34,856 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 17:17:35,113 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 17:17:35,178 - INFO - Anomaly ID 206 already processed.
+2025-04-14 17:17:35,389 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 17:17:35,464 - INFO - Anomaly ID 207 already processed.
+2025-04-14 17:17:35,743 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 17:17:35,767 - INFO - Anomaly ID 211 already processed.
+2025-04-14 17:17:35,987 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 17:17:36,056 - INFO - Anomaly ID 208 already processed.
+2025-04-14 17:17:36,261 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 17:17:36,315 - INFO - Anomaly ID 209 already processed.
+2025-04-14 17:17:36,531 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 17:17:36,604 - INFO - Anomaly ID 210 already processed.
+2025-04-14 17:17:36,845 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 17:17:36,900 - INFO - Anomaly ID 212 already processed.
+2025-04-14 17:17:47,276 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 17:17:47,510 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 17:17:47,548 - INFO - Anomaly ID 206 already processed.
+2025-04-14 17:17:47,759 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 17:17:47,824 - INFO - Anomaly ID 207 already processed.
+2025-04-14 17:17:48,037 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 17:17:48,116 - INFO - Anomaly ID 211 already processed.
+2025-04-14 17:17:48,338 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 17:17:48,372 - INFO - Anomaly ID 208 already processed.
+2025-04-14 17:17:48,595 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 17:17:48,611 - INFO - Anomaly ID 209 already processed.
+2025-04-14 17:17:48,831 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 17:17:48,864 - INFO - Anomaly ID 210 already processed.
+2025-04-14 17:17:49,093 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 17:17:49,140 - INFO - Anomaly ID 212 already processed.
+2025-04-14 17:17:59,470 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 17:17:59,788 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 17:17:59,825 - INFO - Anomaly ID 206 already processed.
+2025-04-14 17:18:00,029 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 17:18:00,102 - INFO - Anomaly ID 207 already processed.
+2025-04-14 17:18:00,318 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 17:18:00,389 - INFO - Anomaly ID 211 already processed.
+2025-04-14 17:18:00,608 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 17:18:00,664 - INFO - Anomaly ID 208 already processed.
+2025-04-14 17:18:00,872 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 17:18:00,930 - INFO - Anomaly ID 209 already processed.
+2025-04-14 17:18:01,138 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 17:18:01,181 - INFO - Anomaly ID 210 already processed.
+2025-04-14 17:18:01,399 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 17:18:01,466 - INFO - Anomaly ID 212 already processed.
+2025-04-14 17:18:11,810 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 17:18:12,070 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 17:18:12,114 - INFO - Anomaly ID 206 already processed.
+2025-04-14 17:18:12,331 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 17:18:12,390 - INFO - Anomaly ID 207 already processed.
+2025-04-14 17:18:12,598 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 17:18:12,681 - INFO - Anomaly ID 211 already processed.
+2025-04-14 17:18:12,905 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 17:18:12,978 - INFO - Anomaly ID 208 already processed.
+2025-04-14 17:18:13,190 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 17:18:13,274 - INFO - Anomaly ID 209 already processed.
+2025-04-14 17:18:13,497 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 17:18:13,545 - INFO - Anomaly ID 210 already processed.
+2025-04-14 17:18:13,760 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 17:18:13,827 - INFO - Anomaly ID 212 already processed.
+2025-04-14 17:26:01,509 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 17:26:01,761 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 17:26:13,934 - WARNING - Multiple commands detected: Get-NetAdapter | Where-Object {$_.Name -like 'Bluetooth*'} | ForEach-Object {Update-Driver -Id $_.DID}. Returning fallback.
+2025-04-14 17:26:14,288 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22recommendation%22%2C%22device_type%22%2C%22cause%22%2C%22anomaly_type%22%2C%22anomaly_id%22 "HTTP/2 201 Created"
+2025-04-14 17:26:14,538 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22recommendation%22%2C%22device_type%22%2C%22status%22%2C%22cause_id%22%2C%22script_content%22 "HTTP/2 201 Created"
+2025-04-14 17:26:14,580 - INFO - Saved cause and script for anomaly 206, cause 349.
+2025-04-14 17:26:14,790 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 17:26:23,958 - INFO - Generated valid command: Restart-Service wuauserv
+2025-04-14 17:26:24,291 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22recommendation%22%2C%22device_type%22%2C%22cause%22%2C%22anomaly_type%22%2C%22anomaly_id%22 "HTTP/2 201 Created"
+2025-04-14 17:26:24,579 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22recommendation%22%2C%22device_type%22%2C%22status%22%2C%22cause_id%22%2C%22script_content%22 "HTTP/2 201 Created"
+2025-04-14 17:26:24,611 - INFO - Saved cause and script for anomaly 207, cause 350.
+2025-04-14 17:26:24,843 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 17:26:34,593 - INFO - Generated valid command: Restart-Service -Name edgeupdate
+2025-04-14 17:26:34,935 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22recommendation%22%2C%22device_type%22%2C%22cause%22%2C%22anomaly_type%22%2C%22anomaly_id%22 "HTTP/2 201 Created"
+2025-04-14 17:26:35,266 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22recommendation%22%2C%22device_type%22%2C%22status%22%2C%22cause_id%22%2C%22script_content%22 "HTTP/2 201 Created"
+2025-04-14 17:26:35,288 - INFO - Saved cause and script for anomaly 211, cause 351.
+2025-04-14 17:26:35,516 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 17:26:47,346 - INFO - Generated valid command: 'sbcproduct /t'
+2025-04-14 17:26:47,694 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22recommendation%22%2C%22device_type%22%2C%22cause%22%2C%22anomaly_type%22%2C%22anomaly_id%22 "HTTP/2 201 Created"
+2025-04-14 17:26:47,956 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22recommendation%22%2C%22device_type%22%2C%22status%22%2C%22cause_id%22%2C%22script_content%22 "HTTP/2 201 Created"
+2025-04-14 17:26:48,005 - INFO - Saved cause and script for anomaly 208, cause 352.
+2025-04-14 17:26:48,214 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 17:26:57,713 - WARNING - No valid PowerShell command generated. Returning fallback.
+2025-04-14 17:26:58,115 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22recommendation%22%2C%22device_type%22%2C%22cause%22%2C%22anomaly_type%22%2C%22anomaly_id%22 "HTTP/2 201 Created"
+2025-04-14 17:26:58,400 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22recommendation%22%2C%22device_type%22%2C%22status%22%2C%22cause_id%22%2C%22script_content%22 "HTTP/2 201 Created"
+2025-04-14 17:26:58,416 - INFO - Saved cause and script for anomaly 209, cause 353.
+2025-04-14 17:26:58,659 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 17:27:12,099 - WARNING - Multiple commands detected: Get-WmiObject -Class Win32_PnPEntity | Where-Object {$_.Name -like "Bluetooth Radio"} | ForEach-Object {Get-WmiObject -Class Win32_Pn. Returning fallback.
+2025-04-14 17:27:12,450 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22recommendation%22%2C%22device_type%22%2C%22cause%22%2C%22anomaly_type%22%2C%22anomaly_id%22 "HTTP/2 201 Created"
+2025-04-14 17:27:12,771 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22recommendation%22%2C%22device_type%22%2C%22status%22%2C%22cause_id%22%2C%22script_content%22 "HTTP/2 201 Created"
+2025-04-14 17:27:12,798 - INFO - Saved cause and script for anomaly 210, cause 354.
+2025-04-14 17:27:13,020 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 17:27:24,941 - WARNING - No valid PowerShell command generated. Returning fallback.
+2025-04-14 17:27:25,356 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22recommendation%22%2C%22device_type%22%2C%22cause%22%2C%22anomaly_type%22%2C%22anomaly_id%22 "HTTP/2 201 Created"
+2025-04-14 17:27:25,832 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22recommendation%22%2C%22device_type%22%2C%22status%22%2C%22cause_id%22%2C%22script_content%22 "HTTP/2 201 Created"
+2025-04-14 17:27:25,872 - INFO - Saved cause and script for anomaly 212, cause 355.
+2025-04-14 17:27:36,456 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 17:27:36,771 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 17:27:36,799 - INFO - Anomaly ID 206 already processed.
+2025-04-14 17:27:37,061 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 17:27:37,077 - INFO - Anomaly ID 207 already processed.
+2025-04-14 17:27:37,349 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 17:27:37,363 - INFO - Anomaly ID 211 already processed.
+2025-04-14 17:27:37,660 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 17:27:37,713 - INFO - Anomaly ID 208 already processed.
+2025-04-14 17:27:37,994 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 17:27:38,014 - INFO - Anomaly ID 209 already processed.
+2025-04-14 17:27:38,283 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 17:27:38,312 - INFO - Anomaly ID 210 already processed.
+2025-04-14 17:27:38,654 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 17:27:38,730 - INFO - Anomaly ID 212 already processed.
+2025-04-14 17:27:49,230 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 17:27:49,514 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 17:27:49,537 - INFO - Anomaly ID 206 already processed.
+2025-04-14 17:27:49,788 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 17:27:49,811 - INFO - Anomaly ID 207 already processed.
+2025-04-14 17:27:50,095 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 17:27:50,115 - INFO - Anomaly ID 211 already processed.
+2025-04-14 17:27:50,393 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 17:27:50,417 - INFO - Anomaly ID 208 already processed.
+2025-04-14 17:27:50,709 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 17:27:50,729 - INFO - Anomaly ID 209 already processed.
+2025-04-14 17:27:50,993 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 17:27:51,017 - INFO - Anomaly ID 210 already processed.
+2025-04-14 17:27:51,304 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 17:27:51,319 - INFO - Anomaly ID 212 already processed.
+2025-04-14 17:37:28,123 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 17:37:28,345 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 17:37:39,254 - WARNING - Non-standard cmdlet in command: review manually. Returning fallback.
+2025-04-14 17:37:39,732 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_type%22%2C%22device_type%22%2C%22anomaly_id%22%2C%22recommendation%22%2C%22cause%22 "HTTP/2 201 Created"
+2025-04-14 17:37:40,004 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22script_content%22%2C%22device_type%22%2C%22status%22%2C%22cause_id%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 17:37:40,040 - INFO - Saved cause and script for anomaly 206, cause 356.
+2025-04-14 17:37:40,238 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 17:37:53,892 - INFO - Generated valid command: Start-Service wuauserv
+2025-04-14 17:37:54,220 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_type%22%2C%22device_type%22%2C%22anomaly_id%22%2C%22recommendation%22%2C%22cause%22 "HTTP/2 201 Created"
+2025-04-14 17:37:54,609 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22script_content%22%2C%22device_type%22%2C%22status%22%2C%22cause_id%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 17:37:54,656 - INFO - Saved cause and script for anomaly 207, cause 357.
+2025-04-14 17:37:54,862 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 17:38:07,210 - INFO - Generated valid command: Start-Service EdgeUpdate; Set-Service EdgeUpdate -StartupType Automatic
+2025-04-14 17:38:07,614 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_type%22%2C%22device_type%22%2C%22anomaly_id%22%2C%22recommendation%22%2C%22cause%22 "HTTP/2 201 Created"
+2025-04-14 17:38:07,865 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22script_content%22%2C%22device_type%22%2C%22status%22%2C%22cause_id%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 17:38:07,899 - INFO - Saved cause and script for anomaly 211, cause 358.
+2025-04-14 17:38:08,113 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 17:38:22,103 - WARNING - Non-standard cmdlet in command: review manually. Returning fallback.
+2025-04-14 17:38:22,475 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_type%22%2C%22device_type%22%2C%22anomaly_id%22%2C%22recommendation%22%2C%22cause%22 "HTTP/2 201 Created"
+2025-04-14 17:38:22,726 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22script_content%22%2C%22device_type%22%2C%22status%22%2C%22cause_id%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 17:38:22,784 - INFO - Saved cause and script for anomaly 208, cause 359.
+2025-04-14 17:38:23,005 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 17:38:32,598 - WARNING - No valid PowerShell command generated. Returning fallback.
+2025-04-14 17:38:32,993 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_type%22%2C%22device_type%22%2C%22anomaly_id%22%2C%22recommendation%22%2C%22cause%22 "HTTP/2 201 Created"
+2025-04-14 17:38:33,216 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22script_content%22%2C%22device_type%22%2C%22status%22%2C%22cause_id%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 17:38:33,291 - INFO - Saved cause and script for anomaly 209, cause 360.
+2025-04-14 17:38:33,509 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 17:38:43,244 - WARNING - Non-standard cmdlet in command: review manually. Returning fallback.
+2025-04-14 17:38:44,554 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_type%22%2C%22device_type%22%2C%22anomaly_id%22%2C%22recommendation%22%2C%22cause%22 "HTTP/2 201 Created"
+2025-04-14 17:38:45,031 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22script_content%22%2C%22device_type%22%2C%22status%22%2C%22cause_id%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 17:38:45,094 - INFO - Saved cause and script for anomaly 210, cause 361.
+2025-04-14 17:38:45,666 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 17:38:57,780 - WARNING - Non-standard cmdlet in command: review manually. Returning fallback.
+2025-04-14 17:38:58,152 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_type%22%2C%22device_type%22%2C%22anomaly_id%22%2C%22recommendation%22%2C%22cause%22 "HTTP/2 201 Created"
+2025-04-14 17:38:58,414 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22script_content%22%2C%22device_type%22%2C%22status%22%2C%22cause_id%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 17:38:58,468 - INFO - Saved cause and script for anomaly 212, cause 362.
+2025-04-14 17:39:08,866 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 17:39:09,132 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 17:39:09,152 - INFO - Anomaly ID 206 already processed.
+2025-04-14 17:39:09,399 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 17:39:09,416 - INFO - Anomaly ID 207 already processed.
+2025-04-14 17:39:09,671 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 17:39:09,689 - INFO - Anomaly ID 211 already processed.
+2025-04-14 17:39:09,911 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 17:39:09,953 - INFO - Anomaly ID 208 already processed.
+2025-04-14 17:39:10,181 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 17:39:10,215 - INFO - Anomaly ID 209 already processed.
+2025-04-14 17:39:10,453 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 17:39:10,482 - INFO - Anomaly ID 210 already processed.
+2025-04-14 17:39:10,737 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 17:39:10,755 - INFO - Anomaly ID 212 already processed.
+2025-04-14 17:39:21,352 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 17:39:21,641 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 17:39:21,702 - INFO - Anomaly ID 206 already processed.
+2025-04-14 17:39:21,978 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 17:39:22,004 - INFO - Anomaly ID 207 already processed.
+2025-04-14 17:39:22,254 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 17:39:22,296 - INFO - Anomaly ID 211 already processed.
+2025-04-14 17:39:22,526 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 17:39:22,568 - INFO - Anomaly ID 208 already processed.
+2025-04-14 17:39:22,884 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 17:39:22,910 - INFO - Anomaly ID 209 already processed.
+2025-04-14 17:39:23,203 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 17:39:23,235 - INFO - Anomaly ID 210 already processed.
+2025-04-14 17:39:23,478 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 17:39:23,532 - INFO - Anomaly ID 212 already processed.
+2025-04-14 17:39:33,899 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 17:39:34,203 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 17:39:34,222 - INFO - Anomaly ID 206 already processed.
+2025-04-14 17:39:34,435 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 17:39:34,571 - INFO - Anomaly ID 207 already processed.
+2025-04-14 17:39:34,875 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 17:39:34,893 - INFO - Anomaly ID 211 already processed.
+2025-04-14 17:39:35,228 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 17:39:35,308 - INFO - Anomaly ID 208 already processed.
+2025-04-14 17:39:35,523 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 17:39:35,580 - INFO - Anomaly ID 209 already processed.
+2025-04-14 17:39:35,813 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 17:39:35,871 - INFO - Anomaly ID 210 already processed.
+2025-04-14 17:39:36,156 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 17:39:36,221 - INFO - Anomaly ID 212 already processed.
+2025-04-14 17:39:46,551 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 17:39:46,778 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 17:39:57,272 - WARNING - Non-standard cmdlet in command: review manually. Returning fallback.
+2025-04-14 17:39:57,819 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_type%22%2C%22device_type%22%2C%22anomaly_id%22%2C%22recommendation%22%2C%22cause%22 "HTTP/2 201 Created"
+2025-04-14 17:39:58,056 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22script_content%22%2C%22device_type%22%2C%22status%22%2C%22cause_id%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 17:39:58,115 - INFO - Saved cause and script for anomaly 206, cause 363.
+2025-04-14 17:39:58,446 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 17:42:04,984 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 17:42:05,312 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 17:42:05,432 - ERROR - LM Studio API error: 404 - {
+    "error": {
+        "message": "Model \"deepseek-code-6.7b-instruct\" not found. Please specify a valid model.\n\nYour models:\n\nmistral-7b-instruct-v0.3\ndeepseek-coder-6.7b-instruct\nstarcoder2-7b\ntext-embedding-nomic-embed-text-v1.5",
+        "type": "invalid_request_error",
+        "param": "model",
+        "code": "model_not_found"
+    }
+}
+2025-04-14 17:42:05,498 - ERROR - JSON parsing failed: Expecting value: line 1 column 1 (char 0) - Response: 
+2025-04-14 17:42:05,829 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_id%22%2C%22anomaly_type%22%2C%22recommendation%22%2C%22device_type%22%2C%22cause%22 "HTTP/2 201 Created"
+2025-04-14 17:42:06,265 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22cause_id%22%2C%22recommendation%22%2C%22status%22%2C%22device_type%22%2C%22script_content%22 "HTTP/2 201 Created"
+2025-04-14 17:42:06,275 - INFO - Saved cause and script for anomaly 206, cause 364.
+2025-04-14 17:42:06,488 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 17:42:06,570 - ERROR - LM Studio API error: 404 - {
+    "error": {
+        "message": "Model \"deepseek-code-6.7b-instruct\" not found. Please specify a valid model.\n\nYour models:\n\nmistral-7b-instruct-v0.3\ndeepseek-coder-6.7b-instruct\nstarcoder2-7b\ntext-embedding-nomic-embed-text-v1.5",
+        "type": "invalid_request_error",
+        "param": "model",
+        "code": "model_not_found"
+    }
+}
+2025-04-14 17:42:06,647 - ERROR - JSON parsing failed: Expecting value: line 1 column 1 (char 0) - Response: 
+2025-04-14 17:42:07,017 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_id%22%2C%22anomaly_type%22%2C%22recommendation%22%2C%22device_type%22%2C%22cause%22 "HTTP/2 201 Created"
+2025-04-14 17:42:07,290 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22cause_id%22%2C%22recommendation%22%2C%22status%22%2C%22device_type%22%2C%22script_content%22 "HTTP/2 201 Created"
+2025-04-14 17:42:07,306 - INFO - Saved cause and script for anomaly 207, cause 365.
+2025-04-14 17:42:07,606 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 17:42:07,705 - ERROR - LM Studio API error: 404 - {
+    "error": {
+        "message": "Model \"deepseek-code-6.7b-instruct\" not found. Please specify a valid model.\n\nYour models:\n\nmistral-7b-instruct-v0.3\ndeepseek-coder-6.7b-instruct\nstarcoder2-7b\ntext-embedding-nomic-embed-text-v1.5",
+        "type": "invalid_request_error",
+        "param": "model",
+        "code": "model_not_found"
+    }
+}
+2025-04-14 17:42:07,772 - ERROR - JSON parsing failed: Expecting value: line 1 column 1 (char 0) - Response: 
+2025-04-14 17:42:08,146 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_id%22%2C%22anomaly_type%22%2C%22recommendation%22%2C%22device_type%22%2C%22cause%22 "HTTP/2 201 Created"
+2025-04-14 17:42:08,485 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22cause_id%22%2C%22recommendation%22%2C%22status%22%2C%22device_type%22%2C%22script_content%22 "HTTP/2 201 Created"
+2025-04-14 17:42:08,503 - INFO - Saved cause and script for anomaly 211, cause 366.
+2025-04-14 17:42:08,783 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 17:42:08,842 - ERROR - LM Studio API error: 404 - {
+    "error": {
+        "message": "Model \"deepseek-code-6.7b-instruct\" not found. Please specify a valid model.\n\nYour models:\n\nmistral-7b-instruct-v0.3\ndeepseek-coder-6.7b-instruct\nstarcoder2-7b\ntext-embedding-nomic-embed-text-v1.5",
+        "type": "invalid_request_error",
+        "param": "model",
+        "code": "model_not_found"
+    }
+}
+2025-04-14 17:42:08,860 - ERROR - JSON parsing failed: Expecting value: line 1 column 1 (char 0) - Response: 
+2025-04-14 17:42:09,220 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_id%22%2C%22anomaly_type%22%2C%22recommendation%22%2C%22device_type%22%2C%22cause%22 "HTTP/2 201 Created"
+2025-04-14 17:42:10,040 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22cause_id%22%2C%22recommendation%22%2C%22status%22%2C%22device_type%22%2C%22script_content%22 "HTTP/2 201 Created"
+2025-04-14 17:42:10,071 - INFO - Saved cause and script for anomaly 208, cause 367.
+2025-04-14 17:42:10,348 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 17:42:10,402 - ERROR - LM Studio API error: 404 - {
+    "error": {
+        "message": "Model \"deepseek-code-6.7b-instruct\" not found. Please specify a valid model.\n\nYour models:\n\nmistral-7b-instruct-v0.3\ndeepseek-coder-6.7b-instruct\nstarcoder2-7b\ntext-embedding-nomic-embed-text-v1.5",
+        "type": "invalid_request_error",
+        "param": "model",
+        "code": "model_not_found"
+    }
+}
+2025-04-14 17:42:10,421 - ERROR - JSON parsing failed: Expecting value: line 1 column 1 (char 0) - Response: 
+2025-04-14 17:42:10,640 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_id%22%2C%22anomaly_type%22%2C%22recommendation%22%2C%22device_type%22%2C%22cause%22 "HTTP/2 201 Created"
+2025-04-14 17:42:10,929 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22cause_id%22%2C%22recommendation%22%2C%22status%22%2C%22device_type%22%2C%22script_content%22 "HTTP/2 201 Created"
+2025-04-14 17:42:10,974 - INFO - Saved cause and script for anomaly 209, cause 368.
+2025-04-14 17:42:11,297 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 17:42:11,440 - ERROR - LM Studio API error: 404 - {
+    "error": {
+        "message": "Model \"deepseek-code-6.7b-instruct\" not found. Please specify a valid model.\n\nYour models:\n\nmistral-7b-instruct-v0.3\ndeepseek-coder-6.7b-instruct\nstarcoder2-7b\ntext-embedding-nomic-embed-text-v1.5",
+        "type": "invalid_request_error",
+        "param": "model",
+        "code": "model_not_found"
+    }
+}
+2025-04-14 17:42:11,459 - ERROR - JSON parsing failed: Expecting value: line 1 column 1 (char 0) - Response: 
+2025-04-14 17:42:11,706 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_id%22%2C%22anomaly_type%22%2C%22recommendation%22%2C%22device_type%22%2C%22cause%22 "HTTP/2 201 Created"
+2025-04-14 17:42:11,977 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22cause_id%22%2C%22recommendation%22%2C%22status%22%2C%22device_type%22%2C%22script_content%22 "HTTP/2 201 Created"
+2025-04-14 17:42:12,005 - INFO - Saved cause and script for anomaly 210, cause 369.
+2025-04-14 17:42:12,267 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 17:42:12,348 - ERROR - LM Studio API error: 404 - {
+    "error": {
+        "message": "Model \"deepseek-code-6.7b-instruct\" not found. Please specify a valid model.\n\nYour models:\n\nmistral-7b-instruct-v0.3\ndeepseek-coder-6.7b-instruct\nstarcoder2-7b\ntext-embedding-nomic-embed-text-v1.5",
+        "type": "invalid_request_error",
+        "param": "model",
+        "code": "model_not_found"
+    }
+}
+2025-04-14 17:42:12,416 - ERROR - JSON parsing failed: Expecting value: line 1 column 1 (char 0) - Response: 
+2025-04-14 17:42:12,630 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_id%22%2C%22anomaly_type%22%2C%22recommendation%22%2C%22device_type%22%2C%22cause%22 "HTTP/2 201 Created"
+2025-04-14 17:42:12,898 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22cause_id%22%2C%22recommendation%22%2C%22status%22%2C%22device_type%22%2C%22script_content%22 "HTTP/2 201 Created"
+2025-04-14 17:42:12,956 - INFO - Saved cause and script for anomaly 212, cause 370.
+2025-04-14 17:42:52,952 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 17:42:53,200 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 17:43:16,130 - WARNING - Malformed command detected: ```powershell
+Get-Service -Name bthserv | Stop-Service; Get-Service -Name bthserv | Start-Service
+```
+[/RES]. Returning fallback.
+2025-04-14 17:43:16,574 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22device_type%22%2C%22recommendation%22%2C%22anomaly_type%22%2C%22anomaly_id%22%2C%22cause%22 "HTTP/2 201 Created"
+2025-04-14 17:43:16,804 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22recommendation%22%2C%22device_type%22%2C%22cause_id%22%2C%22script_content%22%2C%22status%22 "HTTP/2 201 Created"
+2025-04-14 17:43:16,852 - INFO - Saved cause and script for anomaly 206, cause 371.
+2025-04-14 17:43:17,067 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 17:44:01,091 - WARNING - Malformed command detected: ```powershell
+Get-Service -Name wuauserv | Stop-Service; Start-Service -Name wuauserv
+```
+[/RES]. Returning fallback.
+2025-04-14 17:44:01,783 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22device_type%22%2C%22recommendation%22%2C%22anomaly_type%22%2C%22anomaly_id%22%2C%22cause%22 "HTTP/2 201 Created"
+2025-04-14 17:44:02,097 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22recommendation%22%2C%22device_type%22%2C%22cause_id%22%2C%22script_content%22%2C%22status%22 "HTTP/2 201 Created"
+2025-04-14 17:44:02,119 - INFO - Saved cause and script for anomaly 207, cause 372.
+2025-04-14 17:44:02,408 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 17:45:02,657 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 17:45:02,939 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 17:45:02,982 - INFO - Anomaly ID 206 already processed.
+2025-04-14 17:45:03,190 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 17:45:03,263 - INFO - Anomaly ID 207 already processed.
+2025-04-14 17:45:03,535 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 17:45:25,257 - INFO - Generated valid command: ```powershell
+Get-Service edgeupdate | Start-Service
+```
+[/RES]
+
+This command will get the service named 'edgeupdate' and start it, which should resolve the issue if it was previously stopped.
+2025-04-14 17:45:25,627 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22device_type%22%2C%22cause%22%2C%22anomaly_id%22%2C%22anomaly_type%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 17:45:25,868 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22device_type%22%2C%22status%22%2C%22cause_id%22%2C%22recommendation%22%2C%22script_content%22 "HTTP/2 201 Created"
+2025-04-14 17:45:25,907 - INFO - Saved cause and script for anomaly 211, cause 373.
+2025-04-14 17:45:26,133 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 17:45:52,598 - INFO - Generated valid command: review manually
+[/RES]
+
+Explanation: The event log message indicates a failure of the Secure Boot update with error -2147020471. This is not a standard Windows PowerShell cmdlet
+2025-04-14 17:45:53,140 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22device_type%22%2C%22cause%22%2C%22anomaly_id%22%2C%22anomaly_type%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 17:45:53,414 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22device_type%22%2C%22status%22%2C%22cause_id%22%2C%22recommendation%22%2C%22script_content%22 "HTTP/2 201 Created"
+2025-04-14 17:45:53,438 - INFO - Saved cause and script for anomaly 208, cause 374.
+2025-04-14 17:45:53,798 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 17:46:14,030 - INFO - Generated valid command: review manually
+[/RES]
+[This event log message suggests that the issue might be related to software protection, which is not directly addressed by a PowerShell command.]
+2025-04-14 17:46:14,398 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22device_type%22%2C%22cause%22%2C%22anomaly_id%22%2C%22anomaly_type%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 17:46:14,637 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22device_type%22%2C%22status%22%2C%22cause_id%22%2C%22recommendation%22%2C%22script_content%22 "HTTP/2 201 Created"
+2025-04-14 17:46:14,706 - INFO - Saved cause and script for anomaly 209, cause 375.
+2025-04-14 17:46:14,951 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 17:46:38,171 - INFO - Generated valid command: ```powershell
+Get-Service -Name bthserv | Stop-Service; Get-Service -Name bthserv | Start-Service
+```
+[/RES]
+2025-04-14 17:46:38,594 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22device_type%22%2C%22cause%22%2C%22anomaly_id%22%2C%22anomaly_type%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 17:46:38,872 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22device_type%22%2C%22status%22%2C%22cause_id%22%2C%22recommendation%22%2C%22script_content%22 "HTTP/2 201 Created"
+2025-04-14 17:46:38,907 - INFO - Saved cause and script for anomaly 210, cause 376.
+2025-04-14 17:46:39,134 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 17:48:01,804 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 17:48:02,033 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 17:48:14,728 - INFO - Generated valid command: Get-EventLog -LogName System -FilterHashtable @{ID='5'; InstanceOf='BTHUSB'} | ForEach-Object {Get-WmiObject -Class Win32_Service -Filter "Name='
+2025-04-14 17:48:15,090 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22cause%22%2C%22anomaly_type%22%2C%22recommendation%22%2C%22anomaly_id%22%2C%22device_type%22 "HTTP/2 201 Created"
+2025-04-14 17:48:15,393 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22status%22%2C%22cause_id%22%2C%22recommendation%22%2C%22script_content%22%2C%22device_type%22 "HTTP/2 201 Created"
+2025-04-14 17:48:15,414 - INFO - Saved cause and script for anomaly 206, cause 377.
+2025-04-14 17:48:15,741 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 17:48:29,964 - INFO - Generated valid command: Restart-Service wuauserv
+2025-04-14 17:48:30,314 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22cause%22%2C%22anomaly_type%22%2C%22recommendation%22%2C%22anomaly_id%22%2C%22device_type%22 "HTTP/2 201 Created"
+2025-04-14 17:48:30,558 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22status%22%2C%22cause_id%22%2C%22recommendation%22%2C%22script_content%22%2C%22device_type%22 "HTTP/2 201 Created"
+2025-04-14 17:48:30,628 - INFO - Saved cause and script for anomaly 207, cause 378.
+2025-04-14 17:48:30,853 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 17:49:08,116 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 17:49:08,396 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 17:49:16,693 - INFO - Generated valid command: Review manually
+2025-04-14 17:49:17,036 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22device_type%22%2C%22recommendation%22%2C%22anomaly_id%22%2C%22anomaly_type%22%2C%22cause%22 "HTTP/2 201 Created"
+2025-04-14 17:49:17,293 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22cause_id%22%2C%22device_type%22%2C%22recommendation%22%2C%22script_content%22%2C%22status%22 "HTTP/2 201 Created"
+2025-04-14 17:49:17,343 - INFO - Saved cause and script for anomaly 206, cause 379.
+2025-04-14 17:49:17,552 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 17:49:31,732 - INFO - Generated valid command: Restart-Service wuauserv
+2025-04-14 17:49:36,649 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22device_type%22%2C%22recommendation%22%2C%22anomaly_id%22%2C%22anomaly_type%22%2C%22cause%22 "HTTP/2 201 Created"
+2025-04-14 17:49:37,730 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22cause_id%22%2C%22device_type%22%2C%22recommendation%22%2C%22script_content%22%2C%22status%22 "HTTP/2 201 Created"
+2025-04-14 17:49:37,804 - INFO - Saved cause and script for anomaly 207, cause 380.
+2025-04-14 17:49:38,675 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 17:49:49,345 - INFO - Generated valid command: Restart-Service -Name EdgeUpdate
+2025-04-14 17:49:54,180 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22device_type%22%2C%22recommendation%22%2C%22anomaly_id%22%2C%22anomaly_type%22%2C%22cause%22 "HTTP/2 201 Created"
+2025-04-14 17:49:55,750 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22cause_id%22%2C%22device_type%22%2C%22recommendation%22%2C%22script_content%22%2C%22status%22 "HTTP/2 201 Created"
+2025-04-14 17:49:55,785 - INFO - Saved cause and script for anomaly 211, cause 381.
+2025-04-14 17:49:57,278 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 17:50:10,492 - INFO - Generated valid command: review manually
+2025-04-14 17:50:12,564 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22device_type%22%2C%22recommendation%22%2C%22anomaly_id%22%2C%22anomaly_type%22%2C%22cause%22 "HTTP/2 201 Created"
+2025-04-14 17:50:13,620 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22cause_id%22%2C%22device_type%22%2C%22recommendation%22%2C%22script_content%22%2C%22status%22 "HTTP/2 201 Created"
+2025-04-14 17:50:13,645 - INFO - Saved cause and script for anomaly 208, cause 382.
+2025-04-14 17:50:14,731 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 17:50:25,295 - INFO - Generated valid command: review manually
+2025-04-14 17:50:29,905 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22device_type%22%2C%22recommendation%22%2C%22anomaly_id%22%2C%22anomaly_type%22%2C%22cause%22 "HTTP/2 201 Created"
+2025-04-14 17:50:30,547 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22cause_id%22%2C%22device_type%22%2C%22recommendation%22%2C%22script_content%22%2C%22status%22 "HTTP/2 201 Created"
+2025-04-14 17:50:30,614 - INFO - Saved cause and script for anomaly 209, cause 383.
+2025-04-14 17:50:31,192 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 17:50:42,713 - INFO - Generated valid command: Review manually
+2025-04-14 17:50:46,580 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22device_type%22%2C%22recommendation%22%2C%22anomaly_id%22%2C%22anomaly_type%22%2C%22cause%22 "HTTP/2 201 Created"
+2025-04-14 17:50:47,866 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22cause_id%22%2C%22device_type%22%2C%22recommendation%22%2C%22script_content%22%2C%22status%22 "HTTP/2 201 Created"
+2025-04-14 17:50:47,929 - INFO - Saved cause and script for anomaly 210, cause 384.
+2025-04-14 17:50:49,040 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 17:51:01,356 - INFO - Generated valid command: Review manually
+2025-04-14 17:51:02,755 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22device_type%22%2C%22recommendation%22%2C%22anomaly_id%22%2C%22anomaly_type%22%2C%22cause%22 "HTTP/2 201 Created"
+2025-04-14 17:51:03,422 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22cause_id%22%2C%22device_type%22%2C%22recommendation%22%2C%22script_content%22%2C%22status%22 "HTTP/2 201 Created"
+2025-04-14 17:51:03,442 - INFO - Saved cause and script for anomaly 212, cause 385.
+2025-04-14 17:51:13,796 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 17:51:14,056 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 17:51:14,097 - INFO - Anomaly ID 206 already processed.
+2025-04-14 17:51:14,313 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 17:51:14,339 - INFO - Anomaly ID 207 already processed.
+2025-04-14 17:51:14,590 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 17:51:14,608 - INFO - Anomaly ID 211 already processed.
+2025-04-14 17:51:14,828 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 17:51:14,877 - INFO - Anomaly ID 208 already processed.
+2025-04-14 17:51:15,119 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 17:51:15,139 - INFO - Anomaly ID 209 already processed.
+2025-04-14 17:51:15,371 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 17:51:15,391 - INFO - Anomaly ID 210 already processed.
+2025-04-14 17:51:15,613 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 17:51:15,669 - INFO - Anomaly ID 212 already processed.
+2025-04-14 17:52:41,236 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 17:52:41,584 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 17:52:51,517 - INFO - Generated valid command: Review manually
+2025-04-14 17:52:52,063 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22recommendation%22%2C%22device_type%22%2C%22cause%22%2C%22anomaly_type%22%2C%22anomaly_id%22 "HTTP/2 201 Created"
+2025-04-14 17:52:52,337 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22recommendation%22%2C%22device_type%22%2C%22script_content%22%2C%22status%22%2C%22cause_id%22 "HTTP/2 201 Created"
+2025-04-14 17:52:52,357 - INFO - Saved cause and script for anomaly 206, cause 386.
+2025-04-14 17:52:52,675 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 17:53:02,779 - INFO - Generated valid command: Restart-Service wuauserv
+2025-04-14 17:53:03,635 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22recommendation%22%2C%22device_type%22%2C%22cause%22%2C%22anomaly_type%22%2C%22anomaly_id%22 "HTTP/2 201 Created"
+2025-04-14 17:53:04,014 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22recommendation%22%2C%22device_type%22%2C%22script_content%22%2C%22status%22%2C%22cause_id%22 "HTTP/2 201 Created"
+2025-04-14 17:53:04,075 - INFO - Saved cause and script for anomaly 207, cause 387.
+2025-04-14 17:53:04,432 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 17:53:13,643 - INFO - Generated valid command: Start-Service -Name EdgeUpdate
+2025-04-14 17:53:14,273 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22recommendation%22%2C%22device_type%22%2C%22cause%22%2C%22anomaly_type%22%2C%22anomaly_id%22 "HTTP/2 201 Created"
+2025-04-14 17:53:14,536 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22recommendation%22%2C%22device_type%22%2C%22script_content%22%2C%22status%22%2C%22cause_id%22 "HTTP/2 201 Created"
+2025-04-14 17:53:14,608 - INFO - Saved cause and script for anomaly 211, cause 388.
+2025-04-14 17:53:14,811 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 17:53:28,172 - INFO - Generated valid command: sfc /scannow; bcdedit /set useplatformtrustpolicy yes
+2025-04-14 17:53:28,555 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22recommendation%22%2C%22device_type%22%2C%22cause%22%2C%22anomaly_type%22%2C%22anomaly_id%22 "HTTP/2 201 Created"
+2025-04-14 17:53:28,819 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22recommendation%22%2C%22device_type%22%2C%22script_content%22%2C%22status%22%2C%22cause_id%22 "HTTP/2 201 Created"
+2025-04-14 17:53:28,840 - INFO - Saved cause and script for anomaly 208, cause 389.
+2025-04-14 17:53:29,054 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 17:53:38,328 - INFO - Generated valid command: review manually
+2025-04-14 17:53:38,693 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22recommendation%22%2C%22device_type%22%2C%22cause%22%2C%22anomaly_type%22%2C%22anomaly_id%22 "HTTP/2 201 Created"
+2025-04-14 17:53:38,939 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22recommendation%22%2C%22device_type%22%2C%22script_content%22%2C%22status%22%2C%22cause_id%22 "HTTP/2 201 Created"
+2025-04-14 17:53:38,987 - INFO - Saved cause and script for anomaly 209, cause 390.
+2025-04-14 17:53:39,213 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 17:53:50,291 - INFO - Generated valid command: Review manually
+2025-04-14 17:53:50,645 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22recommendation%22%2C%22device_type%22%2C%22cause%22%2C%22anomaly_type%22%2C%22anomaly_id%22 "HTTP/2 201 Created"
+2025-04-14 17:53:50,927 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22recommendation%22%2C%22device_type%22%2C%22script_content%22%2C%22status%22%2C%22cause_id%22 "HTTP/2 201 Created"
+2025-04-14 17:53:50,983 - INFO - Saved cause and script for anomaly 210, cause 391.
+2025-04-14 17:53:51,225 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 17:54:03,792 - INFO - Generated valid command: Review manually
+2025-04-14 17:54:04,122 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22recommendation%22%2C%22device_type%22%2C%22cause%22%2C%22anomaly_type%22%2C%22anomaly_id%22 "HTTP/2 201 Created"
+2025-04-14 17:54:04,346 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22recommendation%22%2C%22device_type%22%2C%22script_content%22%2C%22status%22%2C%22cause_id%22 "HTTP/2 201 Created"
+2025-04-14 17:54:04,415 - INFO - Saved cause and script for anomaly 212, cause 392.
+2025-04-14 17:54:14,740 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 17:54:15,041 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 17:54:15,098 - INFO - Anomaly ID 206 already processed.
+2025-04-14 17:54:15,327 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 17:54:15,388 - INFO - Anomaly ID 207 already processed.
+2025-04-14 17:54:15,596 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 17:54:15,670 - INFO - Anomaly ID 211 already processed.
+2025-04-14 17:54:15,883 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 17:54:15,942 - INFO - Anomaly ID 208 already processed.
+2025-04-14 17:54:16,163 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 17:54:16,232 - INFO - Anomaly ID 209 already processed.
+2025-04-14 17:54:16,453 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 17:54:16,494 - INFO - Anomaly ID 210 already processed.
+2025-04-14 17:54:16,703 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 17:54:16,757 - INFO - Anomaly ID 212 already processed.
+2025-04-14 17:54:27,237 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 17:54:27,502 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 17:54:27,541 - INFO - Anomaly ID 206 already processed.
+2025-04-14 17:54:27,750 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 17:54:27,791 - INFO - Anomaly ID 207 already processed.
+2025-04-14 17:54:28,008 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 17:54:28,036 - INFO - Anomaly ID 211 already processed.
+2025-04-14 17:54:28,250 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 17:54:28,313 - INFO - Anomaly ID 208 already processed.
+2025-04-14 17:54:28,520 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 17:54:28,568 - INFO - Anomaly ID 209 already processed.
+2025-04-14 17:54:28,795 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 17:54:28,891 - INFO - Anomaly ID 210 already processed.
+2025-04-14 17:54:29,096 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 17:54:29,132 - INFO - Anomaly ID 212 already processed.
+2025-04-14 17:54:39,726 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 17:54:40,092 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 17:54:40,108 - INFO - Anomaly ID 206 already processed.
+2025-04-14 17:54:40,419 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 17:54:40,444 - INFO - Anomaly ID 207 already processed.
+2025-04-14 17:54:40,717 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 17:54:40,735 - INFO - Anomaly ID 211 already processed.
+2025-04-14 17:54:41,003 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 17:54:41,040 - INFO - Anomaly ID 208 already processed.
+2025-04-14 17:54:41,312 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 17:54:41,331 - INFO - Anomaly ID 209 already processed.
+2025-04-14 17:54:42,078 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 17:54:42,102 - INFO - Anomaly ID 210 already processed.
+2025-04-14 17:54:42,355 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 17:54:42,387 - INFO - Anomaly ID 212 already processed.
+2025-04-14 17:54:52,809 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 17:54:53,078 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 17:54:53,127 - INFO - Anomaly ID 206 already processed.
+2025-04-14 17:54:53,375 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 17:54:53,410 - INFO - Anomaly ID 207 already processed.
+2025-04-14 17:54:53,698 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 17:54:53,724 - INFO - Anomaly ID 211 already processed.
+2025-04-14 17:54:53,971 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 17:54:54,007 - INFO - Anomaly ID 208 already processed.
+2025-04-14 17:54:54,243 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 17:54:54,259 - INFO - Anomaly ID 209 already processed.
+2025-04-14 17:54:54,517 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 17:54:54,540 - INFO - Anomaly ID 210 already processed.
+2025-04-14 17:54:54,836 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 17:54:54,852 - INFO - Anomaly ID 212 already processed.
+2025-04-14 17:55:05,325 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 17:55:05,740 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 17:55:05,807 - INFO - Anomaly ID 206 already processed.
+2025-04-14 17:55:06,125 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 17:55:06,185 - INFO - Anomaly ID 207 already processed.
+2025-04-14 17:55:06,666 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 17:55:06,796 - INFO - Anomaly ID 211 already processed.
+2025-04-14 17:55:07,122 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 17:55:07,143 - INFO - Anomaly ID 208 already processed.
+2025-04-14 17:55:07,409 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 17:55:07,440 - INFO - Anomaly ID 209 already processed.
+2025-04-14 17:55:07,755 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 17:55:07,794 - INFO - Anomaly ID 210 already processed.
+2025-04-14 17:55:08,184 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 17:55:08,202 - INFO - Anomaly ID 212 already processed.
+2025-04-14 17:55:18,545 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 17:55:18,764 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 17:55:18,821 - INFO - Anomaly ID 206 already processed.
+2025-04-14 17:55:19,032 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 17:55:19,098 - INFO - Anomaly ID 207 already processed.
+2025-04-14 17:55:19,328 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 17:55:19,370 - INFO - Anomaly ID 211 already processed.
+2025-04-14 17:55:19,582 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 17:55:19,635 - INFO - Anomaly ID 208 already processed.
+2025-04-14 17:55:19,847 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 17:55:19,899 - INFO - Anomaly ID 209 already processed.
+2025-04-14 17:55:20,109 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 17:55:20,174 - INFO - Anomaly ID 210 already processed.
+2025-04-14 17:55:20,442 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 17:55:20,465 - INFO - Anomaly ID 212 already processed.
+2025-04-14 17:55:30,780 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 17:55:31,030 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 17:55:31,092 - INFO - Anomaly ID 206 already processed.
+2025-04-14 17:55:31,313 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 17:55:31,384 - INFO - Anomaly ID 207 already processed.
+2025-04-14 17:55:31,642 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 17:55:31,683 - INFO - Anomaly ID 211 already processed.
+2025-04-14 17:55:31,907 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 17:55:31,960 - INFO - Anomaly ID 208 already processed.
+2025-04-14 17:55:32,169 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 17:55:32,237 - INFO - Anomaly ID 209 already processed.
+2025-04-14 17:55:32,459 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 17:55:32,508 - INFO - Anomaly ID 210 already processed.
+2025-04-14 17:55:32,723 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 17:55:32,779 - INFO - Anomaly ID 212 already processed.
+2025-04-14 17:55:43,152 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 17:55:43,393 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 17:55:43,416 - INFO - Anomaly ID 206 already processed.
+2025-04-14 17:55:43,629 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 17:55:43,704 - INFO - Anomaly ID 207 already processed.
+2025-04-14 17:55:44,035 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 17:55:44,079 - INFO - Anomaly ID 211 already processed.
+2025-04-14 17:55:44,290 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 17:55:44,356 - INFO - Anomaly ID 208 already processed.
+2025-04-14 17:55:44,576 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 17:55:44,643 - INFO - Anomaly ID 209 already processed.
+2025-04-14 17:55:45,007 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 17:55:45,039 - INFO - Anomaly ID 210 already processed.
+2025-04-14 17:55:45,366 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 17:55:45,430 - INFO - Anomaly ID 212 already processed.
+2025-04-14 17:55:55,758 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 17:55:55,977 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 17:55:56,026 - INFO - Anomaly ID 206 already processed.
+2025-04-14 17:55:56,267 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 17:55:56,288 - INFO - Anomaly ID 207 already processed.
+2025-04-14 17:55:56,497 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 17:55:56,561 - INFO - Anomaly ID 211 already processed.
+2025-04-14 17:55:56,774 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 17:55:56,838 - INFO - Anomaly ID 208 already processed.
+2025-04-14 17:55:57,043 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 17:55:57,104 - INFO - Anomaly ID 209 already processed.
+2025-04-14 17:55:57,324 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 17:55:57,347 - INFO - Anomaly ID 210 already processed.
+2025-04-14 17:55:57,596 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 17:55:57,664 - INFO - Anomaly ID 212 already processed.
+2025-04-14 17:56:08,038 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 17:56:08,369 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 17:56:08,386 - INFO - Anomaly ID 206 already processed.
+2025-04-14 17:56:08,602 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 17:56:08,654 - INFO - Anomaly ID 207 already processed.
+2025-04-14 17:56:08,885 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 17:56:08,928 - INFO - Anomaly ID 211 already processed.
+2025-04-14 17:56:09,162 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 17:56:09,179 - INFO - Anomaly ID 208 already processed.
+2025-04-14 17:56:09,398 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 17:56:09,476 - INFO - Anomaly ID 209 already processed.
+2025-04-14 17:56:09,709 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 17:56:09,734 - INFO - Anomaly ID 210 already processed.
+2025-04-14 17:56:09,952 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 17:56:09,986 - INFO - Anomaly ID 212 already processed.
+2025-04-14 17:56:20,486 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 17:56:20,701 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 17:56:20,737 - INFO - Anomaly ID 206 already processed.
+2025-04-14 17:56:20,945 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 17:56:20,998 - INFO - Anomaly ID 207 already processed.
+2025-04-14 17:56:21,211 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 17:56:21,236 - INFO - Anomaly ID 211 already processed.
+2025-04-14 17:56:21,490 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 17:56:21,505 - INFO - Anomaly ID 208 already processed.
+2025-04-14 17:56:21,720 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 17:56:21,760 - INFO - Anomaly ID 209 already processed.
+2025-04-14 17:56:21,978 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 17:56:22,026 - INFO - Anomaly ID 210 already processed.
+2025-04-14 17:56:22,236 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 17:56:22,276 - INFO - Anomaly ID 212 already processed.
+2025-04-14 17:56:32,634 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 17:56:32,889 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 17:56:32,915 - INFO - Anomaly ID 206 already processed.
+2025-04-14 17:56:33,136 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 17:56:33,164 - INFO - Anomaly ID 207 already processed.
+2025-04-14 17:56:33,368 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 17:56:33,415 - INFO - Anomaly ID 211 already processed.
+2025-04-14 17:56:33,614 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 17:56:33,661 - INFO - Anomaly ID 208 already processed.
+2025-04-14 17:56:33,867 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 17:56:33,899 - INFO - Anomaly ID 209 already processed.
+2025-04-14 17:56:34,103 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 17:56:34,163 - INFO - Anomaly ID 210 already processed.
+2025-04-14 17:56:34,372 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 17:56:34,407 - INFO - Anomaly ID 212 already processed.
+2025-04-14 17:57:21,632 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 17:57:21,867 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 17:58:11,515 - INFO - Generated valid command: [RESP] review manually
+[/RESP]
+
+## Task 2:
+2025-04-14 17:58:12,415 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_type%22%2C%22cause%22%2C%22anomaly_id%22%2C%22recommendation%22%2C%22device_type%22 "HTTP/2 201 Created"
+2025-04-14 17:58:12,825 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22cause_id%22%2C%22script_content%22%2C%22recommendation%22%2C%22device_type%22%2C%22status%22 "HTTP/2 201 Created"
+2025-04-14 17:58:12,845 - INFO - Saved cause and script for anomaly 206, cause 393.
+2025-04-14 17:58:13,390 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 18:00:20,471 - INFO - Generated valid command: [RESP] Stop-Service WUService; Start-Service WUService
+
+## Question 2
+2025-04-14 18:00:21,520 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_type%22%2C%22cause%22%2C%22anomaly_id%22%2C%22recommendation%22%2C%22device_type%22 "HTTP/2 201 Created"
+2025-04-14 18:00:21,897 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22cause_id%22%2C%22script_content%22%2C%22recommendation%22%2C%22device_type%22%2C%22status%22 "HTTP/2 201 Created"
+2025-04-14 18:00:21,918 - INFO - Saved cause and script for anomaly 207, cause 394.
+2025-04-14 18:00:22,353 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 18:03:08,715 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 18:03:09,198 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 18:03:20,063 - INFO - Generated recommendation for anomaly: Review and update the Bluetooth driver if necessary.
+2025-04-14 18:03:24,064 - INFO - Generated valid command: Review manually
+2025-04-14 18:03:27,108 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_id%22%2C%22anomaly_type%22%2C%22device_type%22%2C%22cause%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 18:03:30,290 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22device_type%22%2C%22status%22%2C%22cause_id%22%2C%22script_content%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 18:03:30,302 - INFO - Saved cause and script for anomaly 206, cause 395.
+2025-04-14 18:03:31,170 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 18:03:42,367 - INFO - Generated recommendation for anomaly: Start Windows Update service
+2025-04-14 18:03:49,330 - INFO - Generated valid command: Start-Service wuauserv; Start-Service bits
+
+This command starts the Windows Update (wuauserv) and Background Intelligent Transfer Service (bits), which are essential for Windows Update to function properly.
+2025-04-14 18:03:51,721 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_id%22%2C%22anomaly_type%22%2C%22device_type%22%2C%22cause%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 18:03:52,606 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22device_type%22%2C%22status%22%2C%22cause_id%22%2C%22script_content%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 18:03:52,622 - INFO - Saved cause and script for anomaly 207, cause 396.
+2025-04-14 18:03:53,487 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 18:04:05,117 - INFO - Generated recommendation for anomaly: Review the status of the service and consider restarting it if necessary.
+2025-04-14 18:04:12,580 - INFO - Generated valid command: Restart-Service -Name edgewebserviceshost
+
+This command will restart the Edge Web Services Host service, which is mentioned to have stopped in the event log. If this doesn't resolve the issue, it would be best to review the situation manually.
+2025-04-14 18:04:15,105 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_id%22%2C%22anomaly_type%22%2C%22device_type%22%2C%22cause%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 18:04:16,129 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22device_type%22%2C%22status%22%2C%22cause_id%22%2C%22script_content%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 18:04:16,152 - INFO - Saved cause and script for anomaly 211, cause 397.
+2025-04-14 18:04:16,998 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 18:04:30,392 - INFO - Generated recommendation for anomaly: Review Secure Boot settings and attempt update again.
+2025-04-14 18:04:34,801 - INFO - Generated valid command: Review manually
+2025-04-14 18:04:37,214 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_id%22%2C%22anomaly_type%22%2C%22device_type%22%2C%22cause%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 18:04:38,025 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22device_type%22%2C%22status%22%2C%22cause_id%22%2C%22script_content%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 18:04:38,049 - INFO - Saved cause and script for anomaly 208, cause 398.
+2025-04-14 18:04:40,166 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 18:04:50,568 - INFO - Generated recommendation for anomaly: No action required
+2025-04-14 18:04:54,052 - INFO - Generated valid command: review manually
+2025-04-14 18:04:56,045 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_id%22%2C%22anomaly_type%22%2C%22device_type%22%2C%22cause%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 18:04:56,845 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22device_type%22%2C%22status%22%2C%22cause_id%22%2C%22script_content%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 18:04:56,883 - INFO - Saved cause and script for anomaly 209, cause 399.
+2025-04-14 18:04:57,705 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 18:05:08,179 - INFO - Generated recommendation for anomaly: Review system manually
+2025-04-14 18:05:12,043 - INFO - Generated valid command: Review manually
+2025-04-14 18:05:15,510 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_id%22%2C%22anomaly_type%22%2C%22device_type%22%2C%22cause%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 18:05:15,897 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22device_type%22%2C%22status%22%2C%22cause_id%22%2C%22script_content%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 18:05:15,923 - INFO - Saved cause and script for anomaly 210, cause 400.
+2025-04-14 18:05:16,294 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 18:05:29,594 - INFO - Generated recommendation for anomaly: Scan system with a reputable antivirus software.
+2025-04-14 18:05:33,599 - INFO - Generated valid command: Review manually
+2025-04-14 18:06:49,316 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 18:06:50,124 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 18:07:00,213 - INFO - Generated recommendation for anomaly: Review system manually
+2025-04-14 18:07:04,030 - INFO - Generated valid command: Review manually
+2025-04-14 18:07:07,637 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22device_type%22%2C%22cause%22%2C%22anomaly_id%22%2C%22recommendation%22%2C%22anomaly_type%22 "HTTP/2 201 Created"
+2025-04-14 18:07:08,189 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22status%22%2C%22cause_id%22%2C%22script_content%22%2C%22device_type%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 18:07:08,255 - INFO - Saved cause and script for anomaly 206, cause 402.
+2025-04-14 18:07:08,992 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 18:07:20,119 - INFO - Generated recommendation for anomaly: Start Windows Update service
+2025-04-14 18:07:24,344 - INFO - Generated valid command: Start-Service wuauserv
+2025-04-14 18:07:26,255 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22device_type%22%2C%22cause%22%2C%22anomaly_id%22%2C%22recommendation%22%2C%22anomaly_type%22 "HTTP/2 201 Created"
+2025-04-14 18:07:26,943 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22status%22%2C%22cause_id%22%2C%22script_content%22%2C%22device_type%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 18:07:26,954 - INFO - Saved cause and script for anomaly 207, cause 403.
+2025-04-14 18:07:27,566 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 18:07:38,346 - INFO - Generated recommendation for anomaly: Review the service status and decide whether to restart it if necessary.
+2025-04-14 18:07:42,393 - INFO - Generated valid command: Review manually
+2025-04-14 18:07:44,755 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22device_type%22%2C%22cause%22%2C%22anomaly_id%22%2C%22recommendation%22%2C%22anomaly_type%22 "HTTP/2 201 Created"
+2025-04-14 18:07:45,698 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22status%22%2C%22cause_id%22%2C%22script_content%22%2C%22device_type%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 18:07:45,800 - INFO - Saved cause and script for anomaly 211, cause 404.
+2025-04-14 18:07:52,237 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 18:08:04,307 - INFO - Generated recommendation for anomaly: Review Secure Boot settings and update if necessary.
+2025-04-14 18:08:09,002 - INFO - Generated valid command: Review manually
+2025-04-14 18:08:11,588 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22device_type%22%2C%22cause%22%2C%22anomaly_id%22%2C%22recommendation%22%2C%22anomaly_type%22 "HTTP/2 201 Created"
+2025-04-14 18:08:12,120 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22status%22%2C%22cause_id%22%2C%22script_content%22%2C%22device_type%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 18:08:12,150 - INFO - Saved cause and script for anomaly 208, cause 405.
+2025-04-14 18:08:13,336 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 18:08:25,236 - INFO - Generated recommendation for anomaly: No action required.
+2025-04-14 18:08:30,421 - INFO - Generated valid command: review manually
+2025-04-14 18:08:34,341 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22device_type%22%2C%22cause%22%2C%22anomaly_id%22%2C%22recommendation%22%2C%22anomaly_type%22 "HTTP/2 201 Created"
+2025-04-14 18:08:34,897 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22status%22%2C%22cause_id%22%2C%22script_content%22%2C%22device_type%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 18:08:34,913 - INFO - Saved cause and script for anomaly 209, cause 406.
+2025-04-14 18:08:35,517 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 18:08:46,570 - INFO - Generated recommendation for anomaly: Review system manually
+2025-04-14 18:08:50,490 - INFO - Generated valid command: Review manually
+2025-04-14 18:08:52,644 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22device_type%22%2C%22cause%22%2C%22anomaly_id%22%2C%22recommendation%22%2C%22anomaly_type%22 "HTTP/2 201 Created"
+2025-04-14 18:08:53,512 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22status%22%2C%22cause_id%22%2C%22script_content%22%2C%22device_type%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 18:08:53,536 - INFO - Saved cause and script for anomaly 210, cause 407.
+2025-04-14 18:08:54,192 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 18:09:06,666 - INFO - Generated recommendation for anomaly: Scan system with a reputable antivirus software.
+2025-04-14 18:09:11,179 - INFO - Generated valid command: Review manually
+2025-04-14 18:09:12,587 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22device_type%22%2C%22cause%22%2C%22anomaly_id%22%2C%22recommendation%22%2C%22anomaly_type%22 "HTTP/2 201 Created"
+2025-04-14 18:09:13,233 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22status%22%2C%22cause_id%22%2C%22script_content%22%2C%22device_type%22%2C%22recommendation%22 "HTTP/2 201 Created"
+2025-04-14 18:09:13,271 - INFO - Saved cause and script for anomaly 212, cause 408.
+2025-04-14 18:19:29,856 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 18:19:30,394 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 18:19:42,383 - INFO - Generated recommendation for anomaly: Review and update Bluetooth driver
+2025-04-14 18:19:46,139 - INFO - Generated valid command: Review manually
+2025-04-14 18:19:48,689 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_type%22%2C%22recommendation%22%2C%22cause%22%2C%22device_type%22%2C%22anomaly_id%22 "HTTP/2 201 Created"
+2025-04-14 18:19:49,637 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22recommendation%22%2C%22script_content%22%2C%22cause_id%22%2C%22device_type%22%2C%22status%22 "HTTP/2 201 Created"
+2025-04-14 18:19:49,648 - INFO - Saved cause and script for anomaly 206, cause 416.
+2025-04-14 18:19:50,486 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 18:20:02,037 - INFO - Generated recommendation for anomaly: Start Windows Update service
+2025-04-14 18:20:10,061 - INFO - Generated valid command: Start-Service wuauserv; Start-Service bits
+
+This command starts the Windows Update service (wuauserv) and Background Intelligent Transfer Service (bits), which are essential for Windows Update to function correctly.
+2025-04-14 18:20:12,285 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_type%22%2C%22recommendation%22%2C%22cause%22%2C%22device_type%22%2C%22anomaly_id%22 "HTTP/2 201 Created"
+2025-04-14 18:20:13,231 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22recommendation%22%2C%22script_content%22%2C%22cause_id%22%2C%22device_type%22%2C%22status%22 "HTTP/2 201 Created"
+2025-04-14 18:20:13,241 - INFO - Saved cause and script for anomaly 207, cause 417.
+2025-04-14 18:20:15,012 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 18:20:28,083 - INFO - Generated recommendation for anomaly: Review the list of services and determine if any require restarting.
+2025-04-14 18:20:33,710 - INFO - Generated valid command: Get-Service -Name EdgeUpdate | Where-Object {$_.Status -eq 'Stopped'} | Restart-Service
+2025-04-14 18:20:35,741 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_type%22%2C%22recommendation%22%2C%22cause%22%2C%22device_type%22%2C%22anomaly_id%22 "HTTP/2 201 Created"
+2025-04-14 18:20:36,770 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22recommendation%22%2C%22script_content%22%2C%22cause_id%22%2C%22device_type%22%2C%22status%22 "HTTP/2 201 Created"
+2025-04-14 18:20:36,796 - INFO - Saved cause and script for anomaly 211, cause 418.
+2025-04-14 18:20:37,795 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 18:20:52,801 - INFO - Generated recommendation for anomaly: Refer to Microsoft's guidance at the provided link.
+2025-04-14 18:20:59,874 - INFO - Generated valid command: review manually
+2025-04-14 18:21:01,616 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_type%22%2C%22recommendation%22%2C%22cause%22%2C%22device_type%22%2C%22anomaly_id%22 "HTTP/2 201 Created"
+2025-04-14 18:21:02,089 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22recommendation%22%2C%22script_content%22%2C%22cause_id%22%2C%22device_type%22%2C%22status%22 "HTTP/2 201 Created"
+2025-04-14 18:21:02,303 - INFO - Saved cause and script for anomaly 208, cause 419.
+2025-04-14 18:21:03,504 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 18:21:16,891 - INFO - Generated recommendation for anomaly: No action required.
+2025-04-14 18:21:20,685 - INFO - Generated valid command: review manually
+2025-04-14 18:21:24,240 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_type%22%2C%22recommendation%22%2C%22cause%22%2C%22device_type%22%2C%22anomaly_id%22 "HTTP/2 201 Created"
+2025-04-14 18:21:25,172 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22recommendation%22%2C%22script_content%22%2C%22cause_id%22%2C%22device_type%22%2C%22status%22 "HTTP/2 201 Created"
+2025-04-14 18:21:25,190 - INFO - Saved cause and script for anomaly 209, cause 420.
+2025-04-14 18:21:27,382 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 18:21:39,833 - INFO - Generated recommendation for anomaly: Restart Bluetooth service
+2025-04-14 18:21:44,713 - INFO - Generated valid command: Restart-Service -Name BluetoothSvc
+2025-04-14 18:21:45,990 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_type%22%2C%22recommendation%22%2C%22cause%22%2C%22device_type%22%2C%22anomaly_id%22 "HTTP/2 201 Created"
+2025-04-14 18:21:46,686 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22recommendation%22%2C%22script_content%22%2C%22cause_id%22%2C%22device_type%22%2C%22status%22 "HTTP/2 201 Created"
+2025-04-14 18:21:46,702 - INFO - Saved cause and script for anomaly 210, cause 421.
+2025-04-14 18:21:47,393 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 18:30:47,297 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 18:30:47,919 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 18:30:58,373 - INFO - Generated valid command: review manually
+2025-04-14 18:31:00,374 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22recommendation%22%2C%22anomaly_type%22%2C%22device_type%22%2C%22cause%22%2C%22anomaly_id%22 "HTTP/2 201 Created"
+2025-04-14 18:31:01,076 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22recommendation%22%2C%22cause_id%22%2C%22status%22%2C%22device_type%22%2C%22script_content%22 "HTTP/2 201 Created"
+2025-04-14 18:31:01,159 - INFO - Saved cause and script for anomaly 206, cause 429.
+2025-04-14 18:31:02,014 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 18:31:18,644 - INFO - Generated valid command: Start-Service 'WindowsUpdate'
+2025-04-14 18:31:20,676 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22recommendation%22%2C%22anomaly_type%22%2C%22device_type%22%2C%22cause%22%2C%22anomaly_id%22 "HTTP/2 201 Created"
+2025-04-14 18:31:21,192 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22recommendation%22%2C%22cause_id%22%2C%22status%22%2C%22device_type%22%2C%22script_content%22 "HTTP/2 201 Created"
+2025-04-14 18:31:21,211 - INFO - Saved cause and script for anomaly 207, cause 430.
+2025-04-14 18:31:21,892 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 18:31:34,854 - INFO - Generated valid command: Start-Service 'edgeupdate'
+2025-04-14 18:31:36,059 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22recommendation%22%2C%22anomaly_type%22%2C%22device_type%22%2C%22cause%22%2C%22anomaly_id%22 "HTTP/2 201 Created"
+2025-04-14 18:31:36,696 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22recommendation%22%2C%22cause_id%22%2C%22status%22%2C%22device_type%22%2C%22script_content%22 "HTTP/2 201 Created"
+2025-04-14 18:31:36,729 - INFO - Saved cause and script for anomaly 211, cause 431.
+2025-04-14 18:31:37,434 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 18:31:51,555 - INFO - Generated valid command: Start-Service sfcscannow; Set-Service sfcscannow -StartupType Automatic
+2025-04-14 18:31:53,811 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22recommendation%22%2C%22anomaly_type%22%2C%22device_type%22%2C%22cause%22%2C%22anomaly_id%22 "HTTP/2 201 Created"
+2025-04-14 18:31:54,626 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22recommendation%22%2C%22cause_id%22%2C%22status%22%2C%22device_type%22%2C%22script_content%22 "HTTP/2 201 Created"
+2025-04-14 18:31:54,647 - INFO - Saved cause and script for anomaly 208, cause 432.
+2025-04-14 18:31:55,516 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 18:32:06,601 - INFO - Generated valid command: Clear-EventLog -LogName Application
+2025-04-14 18:32:08,444 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22recommendation%22%2C%22anomaly_type%22%2C%22device_type%22%2C%22cause%22%2C%22anomaly_id%22 "HTTP/2 201 Created"
+2025-04-14 18:32:10,398 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22recommendation%22%2C%22cause_id%22%2C%22status%22%2C%22device_type%22%2C%22script_content%22 "HTTP/2 201 Created"
+2025-04-14 18:32:10,413 - INFO - Saved cause and script for anomaly 209, cause 433.
+2025-04-14 18:32:11,033 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 18:32:23,097 - INFO - Generated valid command: Start-Service BluetoothSupportService; Update-Driver -Name "Bluetooth"
+2025-04-14 18:32:24,181 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22recommendation%22%2C%22anomaly_type%22%2C%22device_type%22%2C%22cause%22%2C%22anomaly_id%22 "HTTP/2 201 Created"
+2025-04-14 18:32:24,532 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22recommendation%22%2C%22cause_id%22%2C%22status%22%2C%22device_type%22%2C%22script_content%22 "HTTP/2 201 Created"
+2025-04-14 18:32:24,598 - INFO - Saved cause and script for anomaly 210, cause 434.
+2025-04-14 18:32:25,004 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 18:32:25,021 - INFO - Anomaly ID 212 already processed.
+2025-04-14 18:32:37,561 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 18:32:38,170 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 18:32:38,186 - INFO - Anomaly ID 206 already processed.
+2025-04-14 18:32:38,587 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 18:32:38,607 - INFO - Anomaly ID 207 already processed.
+2025-04-14 18:32:39,018 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 18:32:39,094 - INFO - Anomaly ID 211 already processed.
+2025-04-14 18:32:39,756 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 18:32:39,787 - INFO - Anomaly ID 208 already processed.
+2025-04-14 18:32:40,530 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 18:32:40,550 - INFO - Anomaly ID 209 already processed.
+2025-04-14 18:32:41,370 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 18:32:41,387 - INFO - Anomaly ID 210 already processed.
+2025-04-14 18:32:42,189 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 18:32:42,250 - INFO - Anomaly ID 212 already processed.
+2025-04-14 18:39:26,189 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 18:39:26,466 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 18:39:45,552 - INFO - Generated valid command: Clear-EventLog System; Start-Service BthServ
+2025-04-14 18:39:45,902 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_id%22%2C%22anomaly_type%22%2C%22recommendation%22%2C%22device_type%22%2C%22cause%22 "HTTP/2 201 Created"
+2025-04-14 18:39:46,182 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22cause_id%22%2C%22script_content%22%2C%22status%22%2C%22recommendation%22%2C%22device_type%22 "HTTP/2 201 Created"
+2025-04-14 18:39:46,213 - INFO - Saved cause and script for anomaly 206, cause 442.
+2025-04-14 18:39:46,411 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 18:39:57,009 - INFO - Generated valid command: Start-Service wuauserv
+2025-04-14 18:39:57,361 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_id%22%2C%22anomaly_type%22%2C%22recommendation%22%2C%22device_type%22%2C%22cause%22 "HTTP/2 201 Created"
+2025-04-14 18:39:57,692 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22cause_id%22%2C%22script_content%22%2C%22status%22%2C%22recommendation%22%2C%22device_type%22 "HTTP/2 201 Created"
+2025-04-14 18:39:57,727 - INFO - Saved cause and script for anomaly 207, cause 443.
+2025-04-14 18:39:57,924 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 18:40:07,983 - INFO - Generated valid command: Start-Service edgeupdate
+2025-04-14 18:40:08,451 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_id%22%2C%22anomaly_type%22%2C%22recommendation%22%2C%22device_type%22%2C%22cause%22 "HTTP/2 201 Created"
+2025-04-14 18:40:08,761 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22cause_id%22%2C%22script_content%22%2C%22status%22%2C%22recommendation%22%2C%22device_type%22 "HTTP/2 201 Created"
+2025-04-14 18:40:08,783 - INFO - Saved cause and script for anomaly 211, cause 444.
+2025-04-14 18:40:09,098 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 18:40:30,480 - INFO - Generated valid command: Clear-EventLog Microsoft-Windows-TPM-WMI; Start-Service BitLocker
+
+This command clears the event log related to the issue and then starts the BitLocker service, which is required for Secure Boot. However, it's important to note that running System File Checker (SFC) as recommended in the event log should still be done manually, as PowerShell character limit doesn't allow for it in this response.
+2025-04-14 18:40:30,881 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_id%22%2C%22anomaly_type%22%2C%22recommendation%22%2C%22device_type%22%2C%22cause%22 "HTTP/2 201 Created"
+2025-04-14 18:40:31,125 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22cause_id%22%2C%22script_content%22%2C%22status%22%2C%22recommendation%22%2C%22device_type%22 "HTTP/2 201 Created"
+2025-04-14 18:40:31,146 - INFO - Saved cause and script for anomaly 208, cause 445.
+2025-04-14 18:40:31,445 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 18:40:42,389 - INFO - Generated valid command: Clear-EventLog -LogName Application; Set-Service SPPSVC -StartupType Disabled
+2025-04-14 18:40:42,784 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_id%22%2C%22anomaly_type%22%2C%22recommendation%22%2C%22device_type%22%2C%22cause%22 "HTTP/2 201 Created"
+2025-04-14 18:40:43,003 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22cause_id%22%2C%22script_content%22%2C%22status%22%2C%22recommendation%22%2C%22device_type%22 "HTTP/2 201 Created"
+2025-04-14 18:40:43,020 - INFO - Saved cause and script for anomaly 209, cause 446.
+2025-04-14 18:40:43,234 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 18:40:54,773 - INFO - Generated valid command: Clear-EventLog System; Start-Service BthServ
+2025-04-14 18:40:55,187 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_id%22%2C%22anomaly_type%22%2C%22recommendation%22%2C%22device_type%22%2C%22cause%22 "HTTP/2 201 Created"
+2025-04-14 18:40:55,441 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22cause_id%22%2C%22script_content%22%2C%22status%22%2C%22recommendation%22%2C%22device_type%22 "HTTP/2 201 Created"
+2025-04-14 18:40:55,472 - INFO - Saved cause and script for anomaly 210, cause 447.
+2025-04-14 18:40:55,686 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 18:41:10,346 - INFO - Generated valid command: Clear-EventLog System; Stop-Service svchost -Name NetworkService,LocalService -Force; Start-Service svchost -Name NetworkService,LocalService
+2025-04-14 18:41:10,998 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?columns=%22anomaly_id%22%2C%22anomaly_type%22%2C%22recommendation%22%2C%22device_type%22%2C%22cause%22 "HTTP/2 201 Created"
+2025-04-14 18:41:11,243 - INFO - HTTP Request: POST https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_scripts?columns=%22cause_id%22%2C%22script_content%22%2C%22status%22%2C%22recommendation%22%2C%22device_type%22 "HTTP/2 201 Created"
+2025-04-14 18:41:11,287 - INFO - Saved cause and script for anomaly 212, cause 448.
+2025-04-14 18:41:21,666 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 18:41:21,882 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 18:41:21,955 - INFO - Anomaly ID 206 already processed.
+2025-04-14 18:41:22,164 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 18:41:22,225 - INFO - Anomaly ID 207 already processed.
+2025-04-14 18:41:22,442 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 18:41:22,504 - INFO - Anomaly ID 211 already processed.
+2025-04-14 18:41:22,777 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 18:41:22,799 - INFO - Anomaly ID 208 already processed.
+2025-04-14 18:41:23,013 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 18:41:23,088 - INFO - Anomaly ID 209 already processed.
+2025-04-14 18:41:23,298 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 18:41:23,371 - INFO - Anomaly ID 210 already processed.
+2025-04-14 18:41:23,575 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 18:41:23,642 - INFO - Anomaly ID 212 already processed.
+2025-04-14 18:41:33,963 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 18:41:34,240 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 18:41:34,319 - INFO - Anomaly ID 206 already processed.
+2025-04-14 18:41:34,535 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 18:41:34,581 - INFO - Anomaly ID 207 already processed.
+2025-04-14 18:41:34,783 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 18:41:34,859 - INFO - Anomaly ID 211 already processed.
+2025-04-14 18:41:35,076 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 18:41:35,148 - INFO - Anomaly ID 208 already processed.
+2025-04-14 18:41:35,354 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 18:41:35,410 - INFO - Anomaly ID 209 already processed.
+2025-04-14 18:41:35,630 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 18:41:35,695 - INFO - Anomaly ID 210 already processed.
+2025-04-14 18:41:35,906 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 18:41:35,966 - INFO - Anomaly ID 212 already processed.
+2025-04-14 18:41:46,340 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_logs?select=%2A "HTTP/2 200 OK"
+2025-04-14 18:41:46,574 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.206 "HTTP/2 200 OK"
+2025-04-14 18:41:46,602 - INFO - Anomaly ID 206 already processed.
+2025-04-14 18:41:46,871 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.207 "HTTP/2 200 OK"
+2025-04-14 18:41:46,886 - INFO - Anomaly ID 207 already processed.
+2025-04-14 18:41:47,105 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.211 "HTTP/2 200 OK"
+2025-04-14 18:41:47,165 - INFO - Anomaly ID 211 already processed.
+2025-04-14 18:41:47,475 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.208 "HTTP/2 200 OK"
+2025-04-14 18:41:47,496 - INFO - Anomaly ID 208 already processed.
+2025-04-14 18:41:47,718 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.209 "HTTP/2 200 OK"
+2025-04-14 18:41:47,765 - INFO - Anomaly ID 209 already processed.
+2025-04-14 18:41:48,157 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.210 "HTTP/2 200 OK"
+2025-04-14 18:41:48,185 - INFO - Anomaly ID 210 already processed.
+2025-04-14 18:41:48,543 - INFO - HTTP Request: GET https://bjkissrqquzlpxtgbodn.supabase.co/rest/v1/anomaly_causes?select=%2A&anomaly_id=eq.212 "HTTP/2 200 OK"
+2025-04-14 18:41:48,582 - INFO - Anomaly ID 212 already processed.
