@@ -1,0 +1,6 @@
+Timestamp,Event ID,Level,Source,Message,Hostname,CPU Usage,Memory Usage
+2025-04-21 16:26:59,9999,ERROR,Service Control Manager,Anomalous system activity detected: Unexpected service failure due to unauthorized access attempt.,DESKTOP-E72J0P3,2.6,48.2
+2025-04-21 16:41:44,9999,ERROR,Service Control Manager,Anomalous system activity detected: Unexpected service failure due to unauthorized access attempt.,DESKTOP-E72J0P3,0.7,48.3
+2025-04-21 17:12:49,0,INFO,edgeupdate,Service stopped.,DESKTOP-E72J0P3,2.0,50.6
+2025-04-21 17:13:54,7040,INFO,Service Control Manager,The start type of the Background Intelligent Transfer Service service was changed from demand start to auto start.,DESKTOP-E72J0P3,1.4,52.3
+2025-04-21 17:16:02,7040,INFO,Service Control Manager,The start type of the Background Intelligent Transfer Service service was changed from auto start to demand start.,DESKTOP-E72J0P3,0.9,49.2

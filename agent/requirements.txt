@@ -1,0 +1,12 @@
+# Core dependencies
+supabase>=2.3.1
+python-dotenv>=1.0.0
+psutil>=5.9.0
+pywin32>=306  # Critical for Windows Event Logs
+
+# BERT model (CPU-only PyTorch)
+torch>=2.1.0 --index-url https://download.pytorch.org/whl/cpu
+transformers>=4.36.0
+
+# Logging
+logging>=0.4.9.6
