@@ -1,5 +1,4 @@
 import React, { useState, useMemo, useEffect } from 'react';
-import { apiRequest } from '../api'; // Adjust path as needed
 import './AnomalyLogs.css';
 
 const AnomalyLogs = ({ logs, isLoading }) => {
@@ -54,16 +53,6 @@ const AnomalyLogs = ({ logs, isLoading }) => {
     setSortConfig({ key, direction });
   };
 
-  const handleAutoFix = async (causeId) => {
-    try {
-      await apiRequest(`/anomaly_scripts/${causeId}/status`, 'PUT', { status: 'queued' }, true);
-      alert('Script status changed to queued successfully');
-    } catch (error) {
-      console.error('Error queueing script:', error);
-      alert('Failed to queue script: ' + error.message);
-    }
-  };
-
   if (isLoading) return <div className="no-logs">Loading logs...</div>;
 
   return (
@@ -78,13 +67,13 @@ const AnomalyLogs = ({ logs, isLoading }) => {
             <table className="logs-table">
               <thead>
                 <tr>
-                  {['timestamp', 'hostname', 'device_type', 'source', 'message', 'cause', 'recommendation', 'actions'].map((key) => (
+                  {['timestamp', 'hostname', 'device_type', 'source', 'message', 'cause', 'recommendation'].map((key) => (
                     <th 
                       key={key}
-                      onClick={key !== 'actions' ? () => requestSort(key) : undefined}
+                      onClick={() => requestSort(key)}
                     >
                       {key.split('_').map(w => w[0].toUpperCase() + w.slice(1)).join(' ')}
-                      {sortConfig.key === key && key !== 'actions' && (
+                      {sortConfig.key === key && (
                         sortConfig.direction === 'asc' ? ' ↑' : ' ↓'
                       )}
                     </th>
@@ -104,16 +93,6 @@ const AnomalyLogs = ({ logs, isLoading }) => {
                       <td>{log.message}</td>
                       <td>{anomalyCause.cause || 'N/A'}</td>
                       <td>{anomalyCause.recommendation || 'N/A'}</td>
-                      <td>
-                        {anomalyCause.id && (
-                          <button 
-                            className="auto-fix-button"
-                            onClick={() => handleAutoFix(anomalyCause.id)}
-                          >
-                            Auto Fix
-                          </button>
-                        )}
-                      </td>
                     </tr>
                   );
                 })}
