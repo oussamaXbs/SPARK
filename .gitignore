@@ -1,0 +1,5 @@
+# Ignore BERT model
+bert_anomaly_detection/
+
+# Ignore React packages
+anomaly-dashboard/frontend/node_modules/
