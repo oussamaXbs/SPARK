@@ -1,0 +1,101 @@
+.dashboard-container {
+    max-width: calc(100vw - 280px);
+    width: 100%;
+    padding: 0 16px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.dashboard-header {
+    color: #333;
+    margin-bottom: 40px; /* Increased margin for spacing */
+    text-align: center;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px; /* Increased gap between cards */
+    width: 100%;
+    max-width: 100%;
+    padding: 0 8px;
+    margin-bottom: 40px; /* Add spacing below the card grid */
+}
+
+.card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+}
+
+.card-title {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.card-value {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.card-value.blue {
+    color: #1a73e8;
+}
+
+.card-value.red {
+    color: #e74c3c;
+}
+
+.card-value.green {
+    color: #2ecc71;
+}
+
+/* Chart Section */
+.chart-section {
+    margin-top: 40px; /* Space between card-grid and chart */
+}
+
+.chart-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.chart-container {
+    position: relative;
+    height: 350px; /* Increased height for better visibility */
+    width: 100%;
+}
+
+.period-selector {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.period-selector label {
+    margin-right: 10px;
+    color: #555;
+}
+
+.period-selector select {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #fff;
+    color: #333;
+    cursor: pointer;
+}
+
+.period-selector select:focus {
+    outline: none;
+    border-color: #1a73e8;
+}

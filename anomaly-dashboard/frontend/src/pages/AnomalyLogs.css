@@ -1,0 +1,78 @@
+.anomaly-container {
+    max-width: calc(100vw - 280px);
+    width: 100%;
+    padding: 0 16px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  
+  .anomaly-header {
+    color: #333;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .no-logs {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+    width: 100%;
+    max-width: 100%;
+    padding: 0 8px;
+  }
+  
+  .logs-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    table-layout: auto;
+    min-width: 800px;
+  }
+  
+  .logs-table th {
+    cursor: pointer;
+    user-select: none;
+    padding: 12px 15px;
+    text-align: left;
+    white-space: nowrap;
+  }
+  
+  .logs-table tbody tr {
+    border-bottom: 1px solid #eee;
+  }
+  
+  .logs-table td {
+    padding: 12px 15px;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 0 8px;
+  }
+  
+  .pagination-button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background: #fff;
+    cursor: pointer;
+  }
+  
+  .pagination-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  
+  .pagination-span {
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+  }

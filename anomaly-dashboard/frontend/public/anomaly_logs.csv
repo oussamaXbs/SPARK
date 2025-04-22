@@ -1,0 +1,51 @@
+timestamp,device_name,device_type,source,log_message,root_cause,recommendations
+2025-03-28T23:33:00,Router-DEF,Router,Memory,Memory leak detected,Faulty application,Restart app or increase RAM
+2025-03-28T10:00:00,Server-001,Server,Disk,Disk space low,Large log files,Delete old logs or expand storage
+2025-03-28T12:53:00,Server-002,Server,CPU,High CPU usage detected,Overloaded process,Restart process or scale resources
+2025-03-28T09:45:00,Router-ABC,Router,Disk,Disk space low,Large log files,Delete old logs or expand storage
+2025-03-28T13:08:00,PC-004,PC,Power,Power fluctuation detected,Unstable supply,Check PSU or UPS
+2025-03-28T10:07:00,Router-XYZ,Router,Power,System operating normally,,
+2025-03-28T19:07:00,Server-001,Server,Disk,Disk space low,Large log files,Delete old logs or expand storage
+2025-03-29T06:53:00,PC-001,PC,Power,Power fluctuation detected,Unstable supply,Check PSU or UPS
+2025-03-29T05:39:00,Server-002,Server,CPU,High CPU usage detected,Overloaded process,Restart process or scale resources
+2025-03-28T18:01:00,PC-003,PC,Disk,System operating normally,,
+2025-03-28T12:28:00,PC-004,PC,Disk,System operating normally,,
+2025-03-28T19:12:00,Router-XYZ,Router,Power,System operating normally,,
+2025-03-28T15:23:00,Router-ABC,Router,Memory,Memory leak detected,Faulty application,Restart app or increase RAM
+2025-03-29T03:02:00,Server-002,Server,Network,System operating normally,,
+2025-03-28T17:39:00,Server-001,Server,CPU,High CPU usage detected,Overloaded process,Restart process or scale resources
+2025-03-29T01:51:00,Router-DEF,Router,CPU,High CPU usage detected,Overloaded process,Restart process or scale resources
+2025-03-28T09:33:00,Router-ABC,Router,Disk,Disk space low,Large log files,Delete old logs or expand storage
+2025-03-28T18:32:00,Router-XYZ,Router,Power,Power fluctuation detected,Unstable supply,Check PSU or UPS
+2025-03-29T05:36:00,Router-DEF,Router,Memory,Memory leak detected,Faulty application,Restart app or increase RAM
+2025-03-28T19:02:00,Router-DEF,Router,Network,Packet loss detected,Network congestion,Check cables or adjust QoS
+2025-03-28T21:42:00,Server-002,Server,Memory,System operating normally,,
+2025-03-28T20:25:00,Router-DEF,Router,Disk,Disk space low,Large log files,Delete old logs or expand storage
+2025-03-28T22:01:00,Router-XYZ,Router,Disk,System operating normally,,
+2025-03-28T13:52:00,PC-002,PC,Disk,Disk space low,Large log files,Delete old logs or expand storage
+2025-03-28T14:02:00,PC-001,PC,Memory,System operating normally,,
+2025-03-28T12:18:00,Server-003,Server,Power,System operating normally,,
+2025-03-28T19:20:00,PC-001,PC,Memory,Memory leak detected,Faulty application,Restart app or increase RAM
+2025-03-29T01:23:00,Server-003,Server,Power,Power fluctuation detected,Unstable supply,Check PSU or UPS
+2025-03-28T14:36:00,Server-002,Server,CPU,System operating normally,,
+2025-03-29T04:00:00,Router-DEF,Router,CPU,High CPU usage detected,Overloaded process,Restart process or scale resources
+2025-03-28T15:11:00,PC-002,PC,Network,Packet loss detected,Network congestion,Check cables or adjust QoS
+2025-03-28T19:48:00,Router-XYZ,Router,CPU,System operating normally,,
+2025-03-29T04:16:00,PC-002,PC,Memory,Memory leak detected,Faulty application,Restart app or increase RAM
+2025-03-28T21:34:00,Server-001,Server,Memory,Memory leak detected,Faulty application,Restart app or increase RAM
+2025-03-28T11:35:00,PC-002,PC,CPU,High CPU usage detected,Overloaded process,Restart process or scale resources
+2025-03-29T05:11:00,Router-ABC,Router,Network,Packet loss detected,Network congestion,Check cables or adjust QoS
+2025-03-28T17:40:00,PC-003,PC,Memory,System operating normally,,
+2025-03-28T13:06:00,Server-002,Server,Network,Packet loss detected,Network congestion,Check cables or adjust QoS
+2025-03-29T07:09:00,PC-004,PC,CPU,System operating normally,,
+2025-03-28T21:00:00,PC-004,PC,Memory,Memory leak detected,Faulty application,Restart app or increase RAM
+2025-03-29T04:52:00,Router-DEF,Router,Power,System operating normally,,
+2025-03-28T13:59:00,Router-XYZ,Router,Disk,Disk space low,Large log files,Delete old logs or expand storage
+2025-03-29T00:58:00,Router-ABC,Router,CPU,System operating normally,,
+2025-03-28T21:00:00,Server-002,Server,Memory,Memory leak detected,Faulty application,Restart app or increase RAM
+2025-03-28T21:11:00,PC-003,PC,CPU,High CPU usage detected,Overloaded process,Restart process or scale resources
+2025-03-28T15:11:00,PC-001,PC,CPU,High CPU usage detected,Overloaded process,Restart process or scale resources
+2025-03-28T15:44:00,Server-001,Server,Network,Packet loss detected,Network congestion,Check cables or adjust QoS
+2025-03-28T20:25:00,Server-001,Server,Disk,Disk space low,Large log files,Delete old logs or expand storage
+2025-03-28T13:35:00,PC-004,PC,Power,Power fluctuation detected,Unstable supply,Check PSU or UPS
+2025-03-28T18:55:00,Router-ABC,Router,Disk,System operating normally,,
